@@ -1,0 +1,247 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+html{
+	width: 100%;
+	overflow-x: hidden;
+
+}
+/* Rules for sizing the icon. */
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+.colored-toast.swal2-icon-success {
+background-color: #a5dc86 !important;
+}
+
+.colored-toast.swal2-icon-error {
+background-color: #f27474 !important;
+}
+
+.colored-toast.swal2-icon-warning {
+background-color: #f8bb86 !important;
+}
+
+.colored-toast.swal2-icon-info {
+background-color: #3fc3ee !important;
+}
+
+.colored-toast.swal2-icon-question {
+background-color: #87adbd !important;
+}
+
+.colored-toast .swal2-title {
+color: white;
+}
+
+.colored-toast .swal2-close {
+color: white;
+}
+
+.colored-toast .swal2-html-container {
+color: white;
+}
+.swal2-popup {
+  font-size: 1rem !important;
+  font-family: 'Poppins', sans-serif !important;
+}  
+
+/* Imagenes Landing */
+
+
+/*  Estandar 1920x1080 y superiores   */
+#branding_bg{
+	background-image: url(../images/secciones/branding/Branding-1920-px-x-674px.jpg) !important;
+
+}
+
+#diseno_bg{
+	background-image: url(../images/secciones/diseno_web/Web-site-1920px-x-509px.jpg) !important;
+
+
+}
+
+#social_bg{
+	background-image: url(../images/secciones/social_media/Social-media-1920px-x-584px.jpg) !important;
+
+
+}
+
+#email_bg{
+	background-image: url(../images/secciones/email_marketing/E-MAIL-Marketing-1920px-x-509px.jpg) !important;
+
+
+}
+
+#seosem_bg{
+	background-image: url(../images/secciones/seo_sem/SEO-&-SEM-1920px-x-439px.jpg) !important;
+
+}
+
+#lk_contacto{
+	background-image: url(../images/secciones/contact/footer-1920-px-x-726px.jpg) !important;
+
+}
+
+/*  Estandar Mobile   */
+
+@media (max-width:414px){
+	
+	#branding_bg{
+		background-image: url(../images/secciones/branding/Branding-360px-x-1518px.jpg) !important;
+	
+	}
+	
+	#diseno_bg{
+		background-image: url(../images/secciones/diseno_web/Web-site-360px-x-1000px.jpg) !important;
+	
+	
+	}
+	
+	#social_bg{
+		background-image: url(../images/secciones/social_media/Social-media-360px-x-1375px.jpg) !important;
+	
+	
+	}
+	
+	#email_bg{
+		background-image: url(../images/secciones/email_marketing/E-MAIL-Marketing-360px-x-1109px.jpg) !important;
+	
+	
+	}
+	
+	#seosem_bg{
+		background-image: url(../images/secciones/seo_sem/SEO-&-SEM-360px-x-739px.jpg) !important;
+	
+	}
+	
+	#lk_contacto{
+		background-image: url(../images/secciones/contact/footer-360-px-x-1359px.jpg) !important;
+	
+	}
+}
+
+/*  Estandar Laptop    */
+
+@media (max-width:1366px) and (min-width:415px) {
+	
+	#branding_bg{
+		background-image: url(../images/secciones/branding/Branding-1366px-x-809px.jpg) !important;
+	
+	}
+	
+	#diseno_bg{
+		background-image: url(../images/secciones/diseno_web/Web-site-1366px-x-584px.jpg) !important;
+	
+	
+	}
+	
+	#social_bg{
+		background-image: url(../images/secciones/social_media/Social-media-1366px-x-697px.jpg) !important;
+	
+	
+	}
+	
+	#email_bg{
+		background-image: url(../images/secciones/email_marketing/E-MAIL-Marketing-1366px-x-621px.jpg) !important;
+	
+	
+	}
+	
+	#seosem_bg{
+		background-image: url(../images/secciones/seo_sem/SEO-&-SEM-1366px-x-509px.jpg) !important;
+	
+	}
+	
+	#lk_contacto{
+		background-image: url(../images/secciones/contact/footer-1366-px-x-726px.jpg) !important;
+	
+	}
+}
+
+@media (max-width:991px){
+	.btitle{
+		margin: 6vh 0 2vh 0 !important;
+		font-size: 90px !important;
+		text-align: center !important;
+		padding-left: 15px;
+	}
+	.float{
+		right: 5px !important;
+		bottom: 5vh !important;
+	}
+
+
+}
+.buttondiv {
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	transform: translate(-50%, 10%);
+}
+
+.pakketcontent{
+	padding: 0 0 5rem;
+}
+
+/* Animations responsive */
+
+/* (A) CONTENT BOX */
+#collapse, #collapse2, #collapse3 {
+	/* (A1) BACKGROUND IMAGE */
+   background-color: #296e6a;
+	/* (A2) DIMENSIONS */
+	width: 100%;
+	height:auto; /* FIXED SIZE REQUIRED */
+   
+	/* (A3) CSS TRANSITION */
+	transition-timing-function: ease-in-out;
+	transition: all 2s;
+  }
+  
+  #otherdiv, #otherdiv2, #otherdiv3 {
+	/* (A1) BACKGROUND IMAGE */
+	background-color: #296e6a;
+	/* (A2) DIMENSIONS */
+	width: 100%;
+	height:auto; /* FIXED SIZE REQUIRED */
+	/* (A3) CSS TRANSITION */
+	transition-timing-function: ease-in-out;
+	transition: all 2s;
+  }
+  
+  /* (B) HIDE */
+  #collapse.hide, #collapse2.hide, #collapse3.hide {
+	height: 0;
+	opacity: 0;
+	overflow: hidden;
+  }
+  
+  #otherdiv.hide, #otherdiv2.hide, #otherdiv3.hide {
+	height: 0 !important;
+	opacity: 0;
+	overflow: hidden;
+  }
+
+
+  #equipo{
+	background-color: #fff !important;
+  }
+
+  .dissapear{
+	  display: none;
+  }
